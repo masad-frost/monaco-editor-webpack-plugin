@@ -55,6 +55,7 @@ class MonacoWebpackPlugin {
     const features = getFeaturesIds(options.features || [], featuresById);
     const output = options.output || '';
     this.options = {
+      publicPath: options.publicPath || '',
       languages: languages.map((id) => languagesById[id]).filter(Boolean),
       features: features.map(id => featuresById[id]).filter(Boolean),
       output,
@@ -63,7 +64,7 @@ class MonacoWebpackPlugin {
 
   apply(compiler) {
     const { languages, features, output } = this.options;
-    const publicPath = getPublicPath(compiler);
+    const publicPath = this.options.publicPath || getPublicPath(compiler);
     const modules = [EDITOR_MODULE].concat(languages).concat(features);
     const workers = modules.map(
       ({ label, alias, worker }) => worker && (mixin({ label, alias }, worker))
