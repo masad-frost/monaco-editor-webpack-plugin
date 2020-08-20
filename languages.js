@@ -1,6 +1,16 @@
 module.exports = {
+  abap: {
+    entry: 'vs/basic-languages/abap/abap.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   apex: {
     entry: 'vs/basic-languages/apex/apex.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  apl: {
+    entry: 'vs/basic-languages/apl/apl.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -11,6 +21,11 @@ module.exports = {
   },
   bat: {
     entry: 'vs/basic-languages/bat/bat.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  cameligo: {
+    entry: 'vs/basic-languages/cameligo/cameligo.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -26,6 +41,11 @@ module.exports = {
   },
   cpp: {
     entry: 'vs/basic-languages/cpp/cpp.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  crystal: {
+    entry: 'vs/basic-languages/crystal/crystal.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -67,6 +87,11 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
+  graphql: {
+    entry: 'vs/basic-languages/graphql/graphql.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   handlebars: {
     entry: 'vs/basic-languages/handlebars/handlebars.contribution',
     worker: undefined,
@@ -95,11 +120,6 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
-  javascript: {
-    entry: 'vs/basic-languages/javascript/javascript.contribution',
-    worker: undefined,
-    alias: undefined,
-  },
   json: {
     entry: 'vs/language/json/monaco.contribution',
     worker: {
@@ -108,6 +128,16 @@ module.exports = {
       output: 'json.worker.js',
       fallback: 'vs/language/json/jsonWorker',
     },
+    alias: undefined,
+  },
+  julia: {
+    entry: 'vs/basic-languages/julia/julia.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  kotlin: {
+    entry: 'vs/basic-languages/kotlin/kotlin.contribution',
+    worker: undefined,
     alias: undefined,
   },
   less: {
@@ -125,6 +155,11 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
+  mips: {
+    entry: 'vs/basic-languages/mips/mips.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   msdax: {
     entry: 'vs/basic-languages/msdax/msdax.contribution',
     worker: undefined,
@@ -135,8 +170,18 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
-  objective: {
+  'objective-c': {
     entry: 'vs/basic-languages/objective-c/objective-c.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  pascal: {
+    entry: 'vs/basic-languages/pascal/pascal.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  pascaligo: {
+    entry: 'vs/basic-languages/pascaligo/pascaligo.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -175,8 +220,8 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
-  python: {
-    entry: 'vs/basic-languages/python/python.contribution',
+  qbasic: {
+    entry: 'vs/basic-languages/qbasic/qbasic.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -200,6 +245,11 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
+  restructuredtext: {
+    entry: 'vs/basic-languages/restructuredtext/restructuredtext.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   ruby: {
     entry: 'vs/basic-languages/ruby/ruby.contribution',
     worker: undefined,
@@ -212,6 +262,11 @@ module.exports = {
   },
   sb: {
     entry: 'vs/basic-languages/sb/sb.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  scala: {
+    entry: 'vs/basic-languages/scala/scala.contribution',
     worker: undefined,
     alias: undefined,
   },
@@ -235,6 +290,11 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
+  sophia: {
+    entry: 'vs/basic-languages/sophia/sophia.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   sql: {
     entry: 'vs/basic-languages/sql/sql.contribution',
     worker: undefined,
@@ -247,6 +307,16 @@ module.exports = {
   },
   swift: {
     entry: 'vs/basic-languages/swift/swift.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  tcl: {
+    entry: 'vs/basic-languages/tcl/tcl.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  twig: {
+    entry: 'vs/basic-languages/twig/twig.contribution',
     worker: undefined,
     alias: undefined,
   },
