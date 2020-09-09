@@ -82,8 +82,8 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
-  go: {
-    entry: 'vs/basic-languages/go/go.contribution',
+  golang: {
+    entry: 'vs/basic-languages/golang/golang.contribution',
     worker: undefined,
     alias: undefined,
   },
