@@ -120,6 +120,11 @@ module.exports = {
     worker: undefined,
     alias: undefined,
   },
+  javascript: {
+    entry: 'vs/basic-languages/javascript/javascript.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
   json: {
     entry: 'vs/language/json/monaco.contribution',
     worker: {
@@ -217,6 +222,11 @@ module.exports = {
   },
   pug: {
     entry: 'vs/basic-languages/pug/pug.contribution',
+    worker: undefined,
+    alias: undefined,
+  },
+  python: {
+    entry: 'vs/basic-languages/python/python.contribution',
     worker: undefined,
     alias: undefined,
   },
